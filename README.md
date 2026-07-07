@@ -5,6 +5,7 @@ GPU miner for Pearl (PRL) by pool.kryptex.com
 
 | GPU Model             | RDNA Version | Arch    | Backend | Hashrate      |
 | --------------------- | ------------ | ------- | ------- | ------------- |
+| AMD Instinct MI300X   | CDNA 3       | gfx942  | ROCm    | ~318 TH/s     |
 | AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | ROCm    | ~80.3 TH/s    |
 | AMD Radeon RX 9060 XT | RDNA 4       | gfx1200 | ROCm    | ~45 TH/s      |
 | AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | ROCm    | ~38 TH/s      |
