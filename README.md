@@ -1,5 +1,7 @@
 # krig-miner
-GPU miner for Pearl (PRL) by pool.kryptex.com
+GPU miner for Pearl (PRL) by [pool.kryptex.com](https://pool.kryptex.com)
+
+**Download** from [releases](https://github.com/kryptex/krig-miner/releases).
 
 ## Hashrate
 
@@ -12,6 +14,8 @@ GPU miner for Pearl (PRL) by pool.kryptex.com
 | AMD Radeon RX 7600    | RDNA 3       | gfx1102 | ROCm    | ~14.7 TH/s    |
 | AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | ROCm    | ~14.5 TH/s    |
 | AMD Radeon RX 6700 XT | RDNA 2       | gfx1031 | ROCm    | ~13.5 TH/s    |
+
+These are just examples. Other GPUs are supported, too.
 
 ## Usage
 
@@ -34,3 +38,9 @@ options:
 ./krig-miner --url prl.kryptex.network:8048 --user WALLET/WORKER
 ```
 
+## Supported GPUs:
+- RDNA2
+- RDNA3
+- RDNA4
+- CDNA3
+- CDNA4
