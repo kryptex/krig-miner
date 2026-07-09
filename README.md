@@ -1,12 +1,13 @@
 # krig-miner
-GPU miner for Pearl (PRL) by [pool.kryptex.com](https://pool.kryptex.com)
+Pearl (PRL) miner for AMD GPUs by [pool.kryptex.com](https://pool.kryptex.com).
 
-**Download** from [releases](https://github.com/kryptex/krig-miner/releases).
+**Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
 
 ## Hashrate
 
 | GPU Model             | RDNA Version | Arch    | Backend | Hashrate      |
 | --------------------- | ------------ | ------- | ------- | ------------- |
+| AMD Instinct MI355X   | CDNA 4       | gfx950  | ROCm    | ~550 TH/s     |
 | AMD Instinct MI300X   | CDNA 3       | gfx942  | ROCm    | ~318 TH/s     |
 | AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | ROCm    | ~90.5 TH/s    |
 | AMD Radeon RX 9060 XT | RDNA 4       | gfx1200 | ROCm    | ~45 TH/s      |
@@ -15,7 +16,8 @@ GPU miner for Pearl (PRL) by [pool.kryptex.com](https://pool.kryptex.com)
 | AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | ROCm    | ~14.5 TH/s    |
 | AMD Radeon RX 6700 XT | RDNA 2       | gfx1031 | ROCm    | ~13.5 TH/s    |
 
-These are just examples. Other GPUs are supported, too.
+These are just examples. Other RDNA & CDNA GPUs are supported, too. See more GPUs there:  
+https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL 
 
 ## Usage
 
@@ -38,9 +40,8 @@ options:
 ./krig-miner --url prl.kryptex.network:8048 --user WALLET/WORKER
 ```
 
-## Supported GPUs:
-- RDNA2
-- RDNA3
-- RDNA4
-- CDNA3
-- CDNA4
+## Support
+
+Please contact us if you have any problems, questions, or suggestions: 
+- support@kryptex.com
+- https://t.me/kryptex
