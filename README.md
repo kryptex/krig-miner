@@ -1,5 +1,5 @@
 # krig-miner
-Pearl (PRL) miner for AMD GPUs by [pool.kryptex.com](https://pool.kryptex.com).
+**Pearl (PRL)** miner for AMD GPUs by [pool.kryptex.com](https://pool.kryptex.com).
 
 **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
 
