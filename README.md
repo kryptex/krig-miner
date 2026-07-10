@@ -1,4 +1,6 @@
-# krig-miner
+<img width="1200" height="629" alt="krig-readme-v3" src="https://github.com/user-attachments/assets/2c38d034-71d1-4db9-b376-91b2dc58a0d4" />
+
+# Krig miner
 **Pearl (PRL)** miner for AMD GPUs by [pool.kryptex.com](https://pool.kryptex.com).
 
 **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
