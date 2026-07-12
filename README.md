@@ -47,4 +47,5 @@ options:
 Please contact us if you have any problems, questions, or suggestions: 
 - support@kryptex.com
 - https://t.me/kryptex
+
 Also, feel free to open issues on Github. 
