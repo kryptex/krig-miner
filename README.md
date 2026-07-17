@@ -35,6 +35,24 @@ options:
   -u, --user <wallet>      Payout wallet
       --wallet <wallet>    Alias for --user
   -p, --password <pw>      Pool password
+      --api-port <port>    Enable the Prometheus /metrics exposer on <port>
+      --api-host <ip>      Bind interface for the exposer (optional; default *)
+                             e.g. --api-port 12000 --api-host 127.0.0.1
+  -d, --devices <list>     Devices to mine on: comma-separated 0-based indices
+                             (as shown by --list-devices), or 'all' (default —
+                             every detected CUDA and ROCm device). e.g. -d 0,2
+      --devices-pci <list> Devices to mine on, by PCI address: comma-separated
+                             bus:device.function. e.g. --devices-pci 01:00.0,0a:00.0
+      --amd-igpu           Include AMD integrated GPUs (APU/iGPU); excluded
+                             by default. Affects -d and --list-devices indices.
+      --no-cuda            Disable the CUDA backend (don't load CUDA DLLs or
+                             enumerate NVIDIA GPUs). By default both backends
+                             run and all CUDA + ROCm devices are mined.
+      --no-rocm            Disable the ROCm backend (don't load HIP DLLs or
+                             enumerate AMD GPUs)
+      --rocm-runtime <6|7> Pin the HIP runtime major; by default 6 is tried
+                             first, then 7
+      --list-devices       List detected devices (index/name/pci) and exit
   -h, --help               Print this help and exit
   -V, --version            Print version and exit
 ```
