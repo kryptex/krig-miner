@@ -5,6 +5,8 @@
 
 **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
 
+Devfee: 0%.
+
 ## Hashrate
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
