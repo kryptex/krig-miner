@@ -17,6 +17,14 @@
 | AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~14.7 TH/s    |
 | AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~14.5 TH/s    |
 | AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ROCm    | ~13.5 TH/s    |
+| AMD Radeon RX 5500 XT   | RDNA 1       | gfx1012 | ROCm    | TBD           |
+| AMD Radeon RX 5500      | RDNA 1       | gfx1012 | ROCm    | TBD           |
+| AMD Radeon RX 5300      | RDNA 1       | gfx1012 | ROCm    | TBD           |
+| AMD Radeon Pro V520     | RDNA 1       | gfx1011 | ROCm    | TBD           |
+| AMD Radeon Pro 5600M    | RDNA 1       | gfx1011 | ROCm    | TBD           |
+| AMD Radeon VII          | GCN 5        | gfx906  | ROCm    | TBD           |
+| AMD Radeon Pro VII      | GCN 5        | gfx906  | ROCm    | TBD           |
+| AMD Instinct MI50/MI60  | GCN 5        | gfx906  | ROCm    | TBD           |
 | NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~335 TH/s     |
 | NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~254 TH/s     |
 
