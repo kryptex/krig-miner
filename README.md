@@ -8,6 +8,7 @@
 Devfee: 0%.
 
 ## Hashrate
+### AMD
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
 | ---------------------   | ------------ | ------- | ------- | ------------- |
@@ -27,11 +28,18 @@ Devfee: 0%.
 | AMD Radeon VII          | GCN 5        | gfx906  | ROCm    | TBD           |
 | AMD Radeon Pro VII      | GCN 5        | gfx906  | ROCm    | TBD           |
 | AMD Instinct MI50/MI60  | GCN 5        | gfx906  | ROCm    | TBD           |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~335 TH/s     |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~254 TH/s     |
 
 These are just examples. Other RDNA & CDNA GPUs are supported, too. See more GPUs there:  
 https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL 
+
+### Nvidia
+
+| GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
+| ---------------------   | ------------ | ------- | ------- | ------------- |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~335 TH/s     |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~254 TH/s     |
+
+Nvidia support is in beta. 
 
 ## Usage
 
