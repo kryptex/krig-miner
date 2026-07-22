@@ -14,10 +14,10 @@ Devfee: 0%.
 | ---------------------   | ------------ | ------- | ------- | ------------- |
 | AMD Instinct MI355X     | CDNA 4       | gfx950  | ROCm    | ~550 TH/s     |
 | AMD Instinct MI300X     | CDNA 3       | gfx942  | ROCm    | ~318 TH/s     |
-| AMD Radeon RX 9070 XT   | RDNA 4       | gfx1201 | ROCm    | ~90.5 TH/s    |
+| AMD Radeon RX 9070 XT   | RDNA 4       | gfx1201 | ROCm    | ~106 TH/s     |
 | AMD Radeon RX 9060 XT   | RDNA 4       | gfx1200 | ROCm    | ~45 TH/s      |
-| AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ROCm    | ~38 TH/s      |
-| AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~14.7 TH/s    |
+| AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ROCm    | ~41.4 TH/s    |
+| AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~15.4 TH/s    |
 | AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~14.5 TH/s    |
 | AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ROCm    | ~13.5 TH/s    |
 | AMD Radeon RX 5500 XT   | RDNA 1       | gfx1012 | ROCm    | TBD           |
