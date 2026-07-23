@@ -18,8 +18,8 @@ Devfee: 0%.
 | AMD Radeon RX 9060 XT   | RDNA 4       | gfx1200 | ROCm    | ~45 TH/s      |
 | AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ROCm    | ~41.4 TH/s    |
 | AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~15.4 TH/s    |
-| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~14.5 TH/s    |
-| AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ROCm    | ~13.5 TH/s    |
+| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~17.8 TH/s    |
+| AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ROCm    | ~15.9 TH/s    |
 | AMD Radeon RX 5500 XT   | RDNA 1       | gfx1012 | ROCm    | TBD           |
 | AMD Radeon RX 5500      | RDNA 1       | gfx1012 | ROCm    | TBD           |
 | AMD Radeon RX 5300      | RDNA 1       | gfx1012 | ROCm    | TBD           |
