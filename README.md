@@ -36,6 +36,7 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
 | ---------------------   | ------------ | ------- | ------- | ------------- |
+| NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | CUDA    | ~402 TH/s     |
 | NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~335 TH/s     |
 | NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~254 TH/s     |
 
