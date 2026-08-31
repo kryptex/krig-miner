@@ -36,9 +36,13 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
 | ---------------------   | ------------ | ------- | ------- | ------------- |
+| NVIDIA B300             | Blackwell    | sm_103  | CUDA    | ~431 TH/s     |
+| NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | CUDA    | ~422 TH/s     |
 | NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | CUDA    | ~402 TH/s     |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~335 TH/s     |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~254 TH/s     |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~385 TH/s     |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~292 TH/s     |
+| NVIDIA L40S             | Ada Lovelace | sm_89   | CUDA    | ~259 TH/s     |
+| NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | CUDA    | ~201 TH/s     |
 
 Nvidia support is in beta. 
 
