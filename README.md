@@ -1,13 +1,13 @@
-<img width="1200" height="629" alt="krig-readme-v3" src="https://github.com/user-attachments/assets/2c38d034-71d1-4db9-b376-91b2dc58a0d4" />
+<img width="1298" height="680" alt="krig-readme" src="https://github.com/user-attachments/assets/54974d80-9325-476b-b812-96637857228b" />
 
 # Krig miner
-**Pearl (PRL)** miner for AMD GPUs by [pool.kryptex.com](https://pool.kryptex.com).
+**Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs by [pool.kryptex.com](https://pool.kryptex.com).
 
 **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
 
 Devfee: 0%.
 
-## Hashrate
+## Pearl (PRL) Hashrate
 ### AMD
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
@@ -43,8 +43,13 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 | NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~292 TH/s     |
 | NVIDIA L40S             | Ada Lovelace | sm_89   | CUDA    | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | CUDA    | ~201 TH/s     |
+| NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | CUDA    | TBD           |
 
 Nvidia support is in beta. 
+
+## Quantus (QTC) Hashrate
+
+TBD
 
 ## Usage
 
