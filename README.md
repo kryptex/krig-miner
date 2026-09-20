@@ -54,7 +54,7 @@ Nvidia support is in beta.
 | GPU Model                                  | Architecture | Arch   | Backend | Hashrate   | Power    |
 | ------------------------------------------ | ------------ | ------ | ------- | ---------- | -------- |
 | NVIDIA GeForce RTX 5090                    | Blackwell    | sm_120 | CUDA    | 1339.7 MH/s | 575 W    |
-| NVIDIA RTX PRO 6000 Blackwell Server Edition | Blackwell | sm_120 | CUDA    | 1336.8 MH/s | 559.3 W  |
+| NVIDIA RTX PRO 6000                        | Blackwell    | sm_120 | CUDA    | 1336.8 MH/s | 559.3 W  |
 | NVIDIA GeForce RTX 4090                    | Ada Lovelace | sm_89  | CUDA    | 967.4 MH/s  | 444.2 W  |
 | NVIDIA L40S                                | Ada Lovelace | sm_89  | CUDA    | 892.0 MH/s  | 348.6 W  |
 | NVIDIA GeForce RTX 3090                    | Ampere       | sm_86  | CUDA    | 490.4 MH/s  | 370 W    |
