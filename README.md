@@ -49,7 +49,26 @@ Nvidia support is in beta.
 
 ## Quantus (QTC) Hashrate
 
-TBD
+### Nvidia
+
+| GPU Model                                  | Architecture | Arch   | Backend | Hashrate   | Power    |
+| ------------------------------------------ | ------------ | ------ | ------- | ---------- | -------- |
+| NVIDIA GeForce RTX 5090                    | Blackwell    | sm_120 | CUDA    | 1339.7 MH/s | 575 W    |
+| NVIDIA RTX PRO 6000 Blackwell Server Edition | Blackwell | sm_120 | CUDA    | 1336.8 MH/s | 559.3 W  |
+| NVIDIA GeForce RTX 4090                    | Ada Lovelace | sm_89  | CUDA    | 967.4 MH/s  | 444.2 W  |
+| NVIDIA L40S                                | Ada Lovelace | sm_89  | CUDA    | 892.0 MH/s  | 348.6 W  |
+| NVIDIA GeForce RTX 3090                    | Ampere       | sm_86  | CUDA    | 490.4 MH/s  | 370 W    |
+| NVIDIA GeForce GTX 1660                    | Turing       | sm_75  | CUDA    | 85.5 MH/s   | 115.65 W |
+| NVIDIA GeForce GTX 1080                    | Pascal       | sm_61  | CUDA    | 33.3 MH/s   | 167.66 W |
+
+### AMD
+
+| GPU Model             | Architecture | Arch    | Backend | Hashrate  | Power   |
+| --------------------- | ------------ | ------- | ------- | --------- | ------- |
+| AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | ROCm    | 242.6 MH/s | 255.3 W |
+| AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | ROCm    | 155.8 MH/s | 301.6 W |
+| AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | ROCm    | 97.8 MH/s  | 191 W   |
+| AMD Radeon RX 7600    | RDNA 3       | gfx1102 | ROCm    | 77.3 MH/s  | 144 W   |
 
 ## Usage
 
