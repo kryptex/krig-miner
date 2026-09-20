@@ -77,23 +77,51 @@ usage: krig-miner [options]
 
 options:
   -o, --url <url>          Pool endpoint: [scheme://]host[:port]
-                           scheme should be stratum+ssl:// (TLS only)
+                             pearl    stratum+ssl://
+                             quantus  stratum+ssl://
+      --coin <coin>        Coin to mine
+                             pearl    default; aliases: prl, pearlhash
+                             quantus  alias: qtc
+      --algorithm <coin>   Alias for --coin
+      --algo <coin>        Alias for --coin
       --pool <url>         Alias for --url
   -u, --user <wallet>      Payout wallet
       --wallet <wallet>    Alias for --user
   -p, --password <pw>      Pool password
-      --api-port <port>    Enable the Prometheus /metrics exposer on <port>
-      --api-host <ip>      Bind interface for the exposer (optional; default *)
-                           e.g. --api-port 12000 --api-host 127.0.0.1
-  -d, --devices <list>     Devices to mine on: comma-separated 0-based indices (as shown by --list-devices),
-                           or 'all' (default — every detected CUDA and ROCm device). e.g. -d 0,2
-      --devices-pci <list> Devices to mine on, by PCI address: comma-separated bus:device.function.
-                           e.g. --devices-pci 01:00.0,0a:00.0
-      --amd-igpu           Include AMD integrated GPUs (APU/iGPU); excluded by default. Affects -d and --list-devices indices.
-      --no-cuda            Disable the CUDA backend (don't load CUDA DLLs or enumerate NVIDIA GPUs).
-                           By default both backends run and all CUDA + ROCm devices are mined.
-      --no-rocm            Disable the ROCm backend (don't load HIP DLLs or enumerate AMD GPUs)
-      --rocm-runtime <6|7> Pin the HIP runtime major; by default 6 is tried first, then 7
+  Failover pools: add --url --user --password per pool,
+                  or --url per pool and --user --password once
+      --api-port <port>    Enable the HTTP API on <port>
+      --api-host <ip>      Bind interface for the API (optional; default 127.0.0.1)
+                             e.g. --api-port 12000 --api-host 127.0.0.1
+  -d, --devices <list>     Devices to mine on: comma-separated 0-based indices
+                             (as shown by --list-devices), or 'all' (default —
+                             every detected CUDA and ROCm device). e.g. -d 0,2
+      --devices-pci <list> Devices to mine on, by PCI address: comma-separated
+                             bus:device.function. e.g. --devices-pci 01:00.0,0a:00.0
+      --amd-igpu           Include AMD integrated GPUs (APU/iGPU); excluded
+                             by default. Affects -d and --list-devices indices.
+      --no-cuda            Disable the CUDA backend (don't load CUDA DLLs or
+                             enumerate NVIDIA GPUs). By default both backends
+                             run and all CUDA + ROCm devices are mined.
+      --no-rocm            Disable the ROCm backend (don't load HIP DLLs or
+                             enumerate AMD GPUs)
+      --rocm-runtime <6|7> Pin the HIP runtime major; by default 6 is tried
+                             first, then 7
+      --gpu-cclock <MHz>   Lock NVIDIA core clock
+      --gpu-mclock <MHz>   Lock NVIDIA memory clock
+      --gpu-coffset <MHz>  Set NVIDIA core clock offset (signed)
+      --gpu-moffset <MHz>  Set NVIDIA memory clock offset (signed)
+      --gpu-plimit <watts> Set NVIDIA board power limit
+      --gpu-fan <percent>  Set every fan on each NVIDIA GPU (0-100)
+                             One value applies to all selected NVIDIA GPUs;
+                             lists follow selected-device order, '_' skips.
+      --gpu-no-reset-oc    Keep NVIDIA settings on exit
+  -l, --log-level <level>  Console verbosity: trace|debug|info|warn|error|
+                             critical|none (default info). debug restores the
+                             detailed per-job/per-share diagnostic output.
+      --log-file <file>  log to a file
+      --no-tui             Disable the interactive terminal UI and print logs
+                             line by line (also automatic when redirected)
       --list-devices       List detected devices (index/name/pci) and exit
   -h, --help               Print this help and exit
   -V, --version            Print version and exit
