@@ -45,8 +45,6 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | CUDA    | ~201 TH/s     |
 | NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | CUDA    | TBD           |
 
-Nvidia support is in beta. 
-
 ## Quantus (QTC) Hashrate
 
 ### Nvidia
