@@ -9,7 +9,7 @@ Quick start:
    ```
    ./krig-miner --url prl.kryptex.network:8048 --user WALLET/WORKER
    ```
-See [all the supported GPUs](GPUs.md) or check our [hashrate database](https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL).
+See [all the supported GPUs](GPUs.md) or check our [hashrate database](https://pool.kryptex.com/device/gpu?coin=PRL).
 
 ## Hashrate
 
