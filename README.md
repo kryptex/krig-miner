@@ -3,12 +3,20 @@
 # Krig miner
 **Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs by [pool.kryptex.com](https://pool.kryptex.com).
 
-**Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
+Quick start:
+1. **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
+2. Connect to Kryptex Pool:
+   ```
+   ./krig-miner --url prl.kryptex.network:8048 --user WALLET/WORKER
+   ```
+See [all the supported GPUs](GPUs.md) or check our [hashrate database](https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL).
 
-Devfee: 0%.
+## Hashrate
 
-## Pearl (PRL) Hashrate
-### AMD
+These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate values may be outdated. 
+
+### Pearl (PRL) Hashrate
+#### AMD
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
 | ---------------------   | ------------ | ------- | ------- | ------------- |
@@ -19,20 +27,11 @@ Devfee: 0%.
 | AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ROCm    | ~41.4 TH/s    |
 | AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~15.4 TH/s    |
 | AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~17.8 TH/s    |
-| AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ROCm    | ~15.9 TH/s    |
-| AMD Radeon RX 5500 XT   | RDNA 1       | gfx1012 | ROCm    | TBD           |
-| AMD Radeon RX 5500      | RDNA 1       | gfx1012 | ROCm    | TBD           |
-| AMD Radeon RX 5300      | RDNA 1       | gfx1012 | ROCm    | TBD           |
-| AMD Radeon Pro V520     | RDNA 1       | gfx1011 | ROCm    | TBD           |
-| AMD Radeon Pro 5600M    | RDNA 1       | gfx1011 | ROCm    | TBD           |
-| AMD Radeon VII          | GCN 5        | gfx906  | ROCm    | TBD           |
-| AMD Radeon Pro VII      | GCN 5        | gfx906  | ROCm    | TBD           |
-| AMD Instinct MI50/MI60  | GCN 5        | gfx906  | ROCm    | TBD           |
+| AMD Radeon RX 5500      | RDNA 1       | gfx1012 | ROCm    | Supported     |
+| AMD Radeon VII          | GCN 5        | gfx906  | ROCm    | Supported     |
+| AMD Instinct MI50/MI60  | GCN 5        | gfx906  | ROCm    | Supported     |
 
-These are just examples. Other RDNA & CDNA GPUs are supported, too. See more GPUs there:  
-https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL 
-
-### Nvidia
+#### Nvidia
 
 | GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
 | ---------------------   | ------------ | ------- | ------- | ------------- |
@@ -41,13 +40,13 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 | NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | CUDA    | ~402 TH/s     |
 | NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~385 TH/s     |
 | NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~292 TH/s     |
+| NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | CUDA    | Supported     |
 | NVIDIA L40S             | Ada Lovelace | sm_89   | CUDA    | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | CUDA    | ~201 TH/s     |
-| NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | CUDA    | TBD           |
 
-## Quantus (QTC) Hashrate
+### Quantus (QTC) Hashrate
 
-### Nvidia
+#### Nvidia
 
 | GPU Model                                  | Architecture | Arch   | Backend | Hashrate   | Power    |
 | ------------------------------------------ | ------------ | ------ | ------- | ---------- | -------- |
@@ -59,7 +58,7 @@ https://pool.kryptex.com/device/gpu?brand=AMD&coin=PRL
 | NVIDIA GeForce GTX 1660                    | Turing       | sm_75  | CUDA    | 85.5 MH/s   | 115.65 W |
 | NVIDIA GeForce GTX 1080                    | Pascal       | sm_61  | CUDA    | 33.3 MH/s   | 167.66 W |
 
-### AMD
+#### AMD
 
 | GPU Model             | Architecture | Arch    | Backend | Hashrate  | Power   |
 | --------------------- | ------------ | ------- | ------- | --------- | ------- |
@@ -123,11 +122,6 @@ options:
       --list-devices       List detected devices (index/name/pci) and exit
   -h, --help               Print this help and exit
   -V, --version            Print version and exit
-```
-
-## Example
-```
-./krig-miner --url prl.kryptex.network:8048 --user WALLET/WORKER
 ```
 
 ## Support
