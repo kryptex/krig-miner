@@ -18,54 +18,54 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 ### Pearl (PRL) Hashrate
 #### AMD
 
-| GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
-| ---------------------   | ------------ | ------- | ------- | ------------- |
-| AMD Instinct MI355X     | CDNA 4       | gfx950  | ROCm    | ~550 TH/s     |
-| AMD Instinct MI300X     | CDNA 3       | gfx942  | ROCm    | ~318 TH/s     |
-| AMD Radeon RX 9070 XT   | RDNA 4       | gfx1201 | ROCm    | ~106 TH/s     |
-| AMD Radeon RX 9060 XT   | RDNA 4       | gfx1200 | ROCm    | ~45 TH/s      |
-| AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ROCm    | ~41.4 TH/s    |
-| AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ROCm    | ~15.4 TH/s    |
-| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ROCm    | ~17.8 TH/s    |
-| AMD Radeon RX 5500      | RDNA 1       | gfx1012 | ROCm    | Supported     |
-| AMD Radeon VII          | GCN 5        | gfx906  | ROCm    | Supported     |
-| AMD Instinct MI50/MI60  | GCN 5        | gfx906  | ROCm    | Supported     |
+| GPU Model               | RDNA Version | Arch    | Hashrate      |
+| ---------------------   | ------------ | ------- | ------------- |
+| AMD Instinct MI355X     | CDNA 4       | gfx950  | ~550 TH/s     |
+| AMD Instinct MI300X     | CDNA 3       | gfx942  | ~318 TH/s     |
+| AMD Radeon RX 9070 XT   | RDNA 4       | gfx1201 | ~106 TH/s     |
+| AMD Radeon RX 9060 XT   | RDNA 4       | gfx1200 | ~45 TH/s      |
+| AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ~41.4 TH/s    |
+| AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ~15.4 TH/s    |
+| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ~17.8 TH/s    |
+| AMD Radeon RX 5500      | RDNA 1       | gfx1012 | Supported     |
+| AMD Radeon VII          | GCN 5        | gfx906  | Supported     |
+| AMD Instinct MI50/MI60  | GCN 5        | gfx906  | Supported     |
 
 #### Nvidia
 
-| GPU Model               | RDNA Version | Arch    | Backend | Hashrate      |
-| ---------------------   | ------------ | ------- | ------- | ------------- |
-| NVIDIA B300             | Blackwell    | sm_103  | CUDA    | ~431 TH/s     |
-| NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | CUDA    | ~422 TH/s     |
-| NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | CUDA    | ~402 TH/s     |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | CUDA    | ~385 TH/s     |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | CUDA    | ~292 TH/s     |
-| NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | CUDA    | Supported     |
-| NVIDIA L40S             | Ada Lovelace | sm_89   | CUDA    | ~259 TH/s     |
-| NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | CUDA    | ~201 TH/s     |
+| GPU Model               | RDNA Version | Arch    | Hashrate      |
+| ---------------------   | ------------ | ------- | ------------- |
+| NVIDIA B300             | Blackwell    | sm_103  | ~431 TH/s     |
+| NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | ~422 TH/s     |
+| NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | ~402 TH/s     |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | ~385 TH/s     |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | ~292 TH/s     |
+| NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | Supported     |
+| NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
+| NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
 
 ### Quantus (QTC) Hashrate
 
 #### Nvidia
 
-| GPU Model                                  | Architecture | Arch   | Backend | Hashrate   | Power    |
-| ------------------------------------------ | ------------ | ------ | ------- | ---------- | -------- |
-| NVIDIA GeForce RTX 5090                    | Blackwell    | sm_120 | CUDA    | 1339.7 MH/s | 575 W    |
-| NVIDIA RTX PRO 6000                        | Blackwell    | sm_120 | CUDA    | 1336.8 MH/s | 559.3 W  |
-| NVIDIA GeForce RTX 4090                    | Ada Lovelace | sm_89  | CUDA    | 967.4 MH/s  | 444.2 W  |
-| NVIDIA L40S                                | Ada Lovelace | sm_89  | CUDA    | 892.0 MH/s  | 348.6 W  |
-| NVIDIA GeForce RTX 3090                    | Ampere       | sm_86  | CUDA    | 490.4 MH/s  | 370 W    |
-| NVIDIA GeForce GTX 1660                    | Turing       | sm_75  | CUDA    | 85.5 MH/s   | 115.65 W |
-| NVIDIA GeForce GTX 1080                    | Pascal       | sm_61  | CUDA    | 33.3 MH/s   | 167.66 W |
+| GPU Model                                  | Architecture | Arch   | Hashrate   | Power    |
+| ------------------------------------------ | ------------ | ------ | ---------- | -------- |
+| NVIDIA GeForce RTX 5090                    | Blackwell    | sm_120 | 1339.7 MH/s | 575 W    |
+| NVIDIA RTX PRO 6000                        | Blackwell    | sm_120 | 1336.8 MH/s | 559.3 W  |
+| NVIDIA GeForce RTX 4090                    | Ada Lovelace | sm_89  | 967.4 MH/s  | 444.2 W  |
+| NVIDIA L40S                                | Ada Lovelace | sm_89  | 892.0 MH/s  | 348.6 W  |
+| NVIDIA GeForce RTX 3090                    | Ampere       | sm_86  | 490.4 MH/s  | 370 W    |
+| NVIDIA GeForce GTX 1660                    | Turing       | sm_75  | 85.5 MH/s   | 115.65 W |
+| NVIDIA GeForce GTX 1080                    | Pascal       | sm_61  | 33.3 MH/s   | 167.66 W |
 
 #### AMD
 
-| GPU Model             | Architecture | Arch    | Backend | Hashrate  | Power   |
-| --------------------- | ------------ | ------- | ------- | --------- | ------- |
-| AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | ROCm    | 242.6 MH/s | 255.3 W |
-| AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | ROCm    | 155.8 MH/s | 301.6 W |
-| AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | ROCm    | 97.8 MH/s  | 191 W   |
-| AMD Radeon RX 7600    | RDNA 3       | gfx1102 | ROCm    | 77.3 MH/s  | 144 W   |
+| GPU Model             | Architecture | Arch    | Hashrate  | Power   |
+| --------------------- | ------------ | ------- | --------- | ------- |
+| AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | 242.6 MH/s | 255.3 W |
+| AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | 155.8 MH/s | 301.6 W |
+| AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | 97.8 MH/s  | 191 W   |
+| AMD Radeon RX 7600    | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W   |
 
 ## Usage
 
