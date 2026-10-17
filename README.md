@@ -18,7 +18,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 ### Pearl (PRL) Hashrate
 #### AMD
 
-| GPU Model               | RDNA Version | Arch    | Hashrate      |
+| GPU Model               | Architecture | Arch    | Hashrate      |
 | ---------------------   | ------------ | ------- | ------------- |
 | AMD Instinct MI355X     | CDNA 4       | gfx950  | ~550 TH/s     |
 | AMD Instinct MI300X     | CDNA 3       | gfx942  | ~318 TH/s     |
@@ -33,7 +33,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 
 #### Nvidia
 
-| GPU Model               | RDNA Version | Arch    | Hashrate      |
+| GPU Model               | Architecture | Arch    | Hashrate      |
 | ---------------------   | ------------ | ------- | ------------- |
 | NVIDIA B300             | Blackwell    | sm_103  | ~431 TH/s     |
 | NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | ~422 TH/s     |
@@ -43,29 +43,42 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | Supported     |
 | NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
+| NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
 
 ### Quantus (QTC) Hashrate
 
 #### Nvidia
 
-| GPU Model                                  | Architecture | Arch   | Hashrate   | Power    |
-| ------------------------------------------ | ------------ | ------ | ---------- | -------- |
-| NVIDIA GeForce RTX 5090                    | Blackwell    | sm_120 | 1339.7 MH/s | 575 W    |
-| NVIDIA RTX PRO 6000                        | Blackwell    | sm_120 | 1336.8 MH/s | 559.3 W  |
-| NVIDIA GeForce RTX 4090                    | Ada Lovelace | sm_89  | 967.4 MH/s  | 444.2 W  |
-| NVIDIA L40S                                | Ada Lovelace | sm_89  | 892.0 MH/s  | 348.6 W  |
-| NVIDIA GeForce RTX 3090                    | Ampere       | sm_86  | 490.4 MH/s  | 370 W    |
-| NVIDIA GeForce GTX 1660                    | Turing       | sm_75  | 85.5 MH/s   | 115.65 W |
-| NVIDIA GeForce GTX 1080                    | Pascal       | sm_61  | 33.3 MH/s   | 167.66 W |
+| GPU Model               | Architecture | Arch   | Hashrate    | Power   |
+| ----------------------- | ------------ | ------ | ----------- | ------- |
+| NVIDIA RTX PRO 6000     | Blackwell    | sm_120 | 1881.1 MH/s | 600 W   |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120 | 1786.8 MH/s | 575 W   |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89  | 1318.0 MH/s | 449 W   |
+| NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89  | 989.1 MH/s  | 299.7 W |
+| NVIDIA L40S             | Ada Lovelace | sm_89  | 892.0 MH/s  | 348.6 W |
+| NVIDIA GeForce RTX 3090 | Ampere       | sm_86  | 490.4 MH/s  | 370 W   |
+| NVIDIA DGX Spark GB10   | Blackwell    | sm_121 | 460.0 MH/s  | 95.7 W  |
+| NVIDIA CMP 50HX         | Turing       | sm_75  | 377.9 MH/s  | 250 W   |
+| NVIDIA CMP 90HX         | Ampere       | sm_86  | 348.3 MH/s  | 320 W   |
+| NVIDIA GeForce RTX 3060 | Ampere       | sm_86  | 220.1 MH/s  | 169.3 W |
+| NVIDIA GeForce GTX 1660 | Turing       | sm_75  | 163.9 MH/s  | 128.9 W |
+| NVIDIA GeForce GTX 1650 | Turing       | sm_75  | 96.8 MH/s   | —       |
+| NVIDIA GeForce GTX 1080 | Pascal       | sm_61  | 33.3 MH/s   | 167.7 W |
 
 #### AMD
 
-| GPU Model             | Architecture | Arch    | Hashrate  | Power   |
-| --------------------- | ------------ | ------- | --------- | ------- |
+| GPU Model             | Architecture | Arch    | Hashrate   | Power   |
+| --------------------- | ------------ | ------- | ---------- | ------- |
 | AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | 242.6 MH/s | 255.3 W |
+| AMD Radeon RX 6700 XT | RDNA 2       | gfx1031 | 183.8 MH/s | 146 W   |
 | AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | 155.8 MH/s | 301.6 W |
-| AMD Radeon RX 6750 XT | RDNA 2       | gfx1031 | 97.8 MH/s  | 191 W   |
 | AMD Radeon RX 7600    | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W   |
+
+#### Intel
+
+| GPU Model      | Architecture | Arch | Hashrate   | Power   |
+| -------------- | ------------ | ---- | ---------- | ------- |
+| Intel Arc A750 | Xe-HPG       | DG2  | 122.8 MH/s | 187.8 W |
 
 ## Usage
 
