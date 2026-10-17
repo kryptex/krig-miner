@@ -16,7 +16,7 @@ https://pool.kryptex.com/device/gpu
 | Arch              | Family                               | Target          | Last update |
 | ----------------- | ------------------------------------ | --------------- | ----------- |
 | Blackwell         | RTX 5000 / RTX 6000 Series           | sm_120          | 1.4.0       |
-| Blackwell ARM     | DGX Spark / GB10                     | sm_121          | 1.5.3       |
+| Blackwell ARM     | DGX Spark / GB10                     | sm_121          | 1.5.8       |
 | Blackwell         | B200, GB200, B300, GB300             | sm_100, sm_103  | 1.5.3       |
 | Hopper            | H100 / H200                          | sm_90           | 1.4.0       |
 | Hopper            | GH200 / GH200 NVL2                   | sm_90           | 1.5.3       |
@@ -55,14 +55,14 @@ Not supported.
 
 | Arch              | Family                                       | Target          | Last update |
 | ----------------- | -------------------------------------------- | --------------- | ----------- |
-| Blackwell         | RTX 5000 / RTX 6000 Series                   | sm_120          | 1.5.2       |
-| Blackwell ARM     | DGX Spark / GB10                             | sm_121          | 1.5.3       |
+| Blackwell         | RTX 5000 / RTX 6000 Series                   | sm_120          | 1.5.7       |
+| Blackwell ARM     | DGX Spark / GB10                             | sm_121          | 1.5.8       |
 | Blackwell         | B200, GB200, B300, GB300                     | sm_100, sm_103  | 1.5.3       |
 | Hopper            | H100 / H200                                  | sm_90           | 1.5.0       |
 | Hopper            | GH200 / GH200 NVL2                           | sm_90           | 1.5.3       |
-| Ada Lovelace      | RTX 4000 Series / L-series                   | sm_89           | 1.5.0       |
-| Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.2       |
-| Turing            | RTX 2000 / GTX 1600 Series / Quadro RTX / T4 | sm_75           | 1.5.2       |
+| Ada Lovelace      | RTX 4000 Series / L-series                   | sm_89           | 1.5.7       |
+| Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.7       |
+| Turing            | RTX 2000 / GTX 1600 Series / Quadro RTX / T4 | sm_75           | 1.5.7       |
 | Volta             | V100 / GV100 / TITAN V                       | sm_70           | x           |
 | Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.2       |
 | Maxwell and older | GTX 900 Series and older                     | sm_52 and older | x           |
@@ -72,10 +72,10 @@ Not supported.
 | Arch              | Family                                  | Target                         | Last update |
 | ----------------- | --------------------------------------- | ------------------------------ | ----------- |
 | CDNA 1–4          | CDNA GPUs                               | gfx908, gfx90a, gfx942, gfx950 | x           |
-| RDNA 4            | RX 9000 Series                          | gfx1200, gfx1201               | 1.5.2       |
+| RDNA 4            | RX 9000 Series                          | gfx1200, gfx1201               | 1.5.9       |
 | RDNA 3.5          | Ryzen AI APUs                           | gfx1150–gfx1152                | 1.5.2       |
-| RDNA 3            | RX 7000 Series / Ryzen APUs             | gfx1100–gfx1103                | 1.5.2       |
-| RDNA 2            | RX 6000 Series / selected Ryzen APUs    | gfx1030-gfx1035                | 1.5.2       |
+| RDNA 3            | RX 7000 Series / Ryzen APUs             | gfx1100–gfx1103                | 1.5.9       |
+| RDNA 2            | RX 6000 Series / selected Ryzen APUs    | gfx1030-gfx1035                | 1.5.8       |
 | RDNA 2            | Van Gogh / Raphael APUs                 | gfx1033, gfx1036               | x           |
 | RDNA 1            | RX 5000 Series / Pro / RDNA 1 APUs      | gfx1010–gfx1013                | 1.5.2       |
 | GCN 5 / Vega 20   | VII / MI50–MI60                         | gfx906                         | 1.5.2       |

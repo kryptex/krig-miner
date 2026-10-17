@@ -67,12 +67,12 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 
 #### AMD
 
-| GPU Model                       | Architecture | Arch    | Hashrate   | Power   |
-| ------------------------------- | ------------ | ------- | ---------- | ------- |
-| AMD Radeon RX 7900 XT           | RDNA 3       | gfx1100 | 242.6 MH/s | 255.3 W |
-| AMD Radeon RX 6700 XT / 6750 XT | RDNA 2       | gfx1031 | 183.8 MH/s | 146 W   |
-| AMD Radeon RX 9070 XT           | RDNA 4       | gfx1201 | 155.8 MH/s | 301.6 W |
-| AMD Radeon RX 7600              | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W   |
+| GPU Model                       | Architecture | Arch    | Hashrate   | Power |
+| ------------------------------- | ------------ | ------- | ---------- | ----- |
+| AMD Radeon RX 7900 XT           | RDNA 3       | gfx1100 | 358.1 MH/s | 257 W |
+| AMD Radeon RX 9070 XT           | RDNA 4       | gfx1201 | 312.5 MH/s | 304 W |
+| AMD Radeon RX 6700 XT / 6750 XT | RDNA 2       | gfx1031 | 183.8 MH/s | 146 W |
+| AMD Radeon RX 7600              | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W |
 
 #### Intel
 

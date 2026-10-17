@@ -4,6 +4,17 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.9
+
+Faster hashrate:
+
+Quantus (QTC):
+
+- AMD GPU RDNA 3 family
+- AMD GPU RDNA 4 family
+- AMD RX 9070 XT 312.504 MH/s (+66.29%) @ 304 W
+- AMD RX 7900 XT 358.053 MH/s (+51.41%) @ 257 W
+
 ## 1.5.8
 
 Faster hashrate:
