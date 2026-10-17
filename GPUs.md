@@ -45,6 +45,10 @@ https://pool.kryptex.com/device/gpu
 | GCN 5 / Vega 10 | RX Vega / Vega APUs | gfx900, gfx902, gfx909, gfx90c | x |
 | GCN 3 / 4 | Fiji / Polaris | gfx803 | x |
 
+### Intel
+
+Not supported.
+
 ## Quantus (QTC)
 
 ### NVIDIA
@@ -80,8 +84,18 @@ https://pool.kryptex.com/device/gpu
 | GCN 3 / 4 | Fiji / Polaris (RX 4xx/5xx) | gfx803 | 1.5.2 |
 | Older GCN | Older GPUs / APUs | gfx6xx, gfx7xx, gfx801, gfx802 | x |
 
+### Intel
+
+| Arch               | Family          | Target  | Last update |
+| ------------------ | --------------- | ------- | ----------- |
+| Xe-HPG (Alchemist) | Arc A750        | acm-g10 | 1.5.8       |
+| Xe-HPG (Alchemist) | Arc A770 / A580 | acm-g10 | x           |
+| Xe-HPG (Alchemist) | Arc A3xx        | acm-g11 | x           |
+| Xe2 (Battlemage)   | Arc B5xx        | bmg-g21 | x           |
+
 ## Notes
 
+- Intel Arc is supported for Quantus only, since 1.5.8, on Linux, HiveOS and mmpOS. Windows is not supported. The Intel GPU driver with Level Zero (`libze_loader.so.1`) is required.
 - Use `--list-devices` to see which GPUs the installed driver exposes to the miner.
 - AMD integrated GPUs are excluded by default. Use `--amd-igpu` to enable the supported APU architectures. 
 - Legacy AMD GCN GPUs need a runtime that still supports their architecture. Linux ROCm 6 may be required.

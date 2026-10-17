@@ -1,7 +1,7 @@
 <img width="1298" height="680" alt="krig-readme" src="https://github.com/user-attachments/assets/54974d80-9325-476b-b812-96637857228b" />
 
 # Krig miner
-**Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs by [pool.kryptex.com](https://pool.kryptex.com).
+**Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs (Quantus also runs on Intel Arc A750) by [pool.kryptex.com](https://pool.kryptex.com).
 
 Quick start:
 1. **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
@@ -62,23 +62,25 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA CMP 90HX         | Ampere       | sm_86  | 348.3 MH/s  | 320 W   |
 | NVIDIA GeForce RTX 3060 | Ampere       | sm_86  | 220.1 MH/s  | 169.3 W |
 | NVIDIA GeForce GTX 1660 | Turing       | sm_75  | 163.9 MH/s  | 128.9 W |
-| NVIDIA GeForce GTX 1650 | Turing       | sm_75  | 96.8 MH/s   | —       |
+| NVIDIA GeForce GTX 1650 | Turing       | sm_75  | 96.8 MH/s   | 75 W    |
 | NVIDIA GeForce GTX 1080 | Pascal       | sm_61  | 33.3 MH/s   | 167.7 W |
 
 #### AMD
 
-| GPU Model             | Architecture | Arch    | Hashrate   | Power   |
-| --------------------- | ------------ | ------- | ---------- | ------- |
-| AMD Radeon RX 7900 XT | RDNA 3       | gfx1100 | 242.6 MH/s | 255.3 W |
-| AMD Radeon RX 6700 XT | RDNA 2       | gfx1031 | 183.8 MH/s | 146 W   |
-| AMD Radeon RX 9070 XT | RDNA 4       | gfx1201 | 155.8 MH/s | 301.6 W |
-| AMD Radeon RX 7600    | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W   |
+| GPU Model                       | Architecture | Arch    | Hashrate   | Power   |
+| ------------------------------- | ------------ | ------- | ---------- | ------- |
+| AMD Radeon RX 7900 XT           | RDNA 3       | gfx1100 | 242.6 MH/s | 255.3 W |
+| AMD Radeon RX 6700 XT / 6750 XT | RDNA 2       | gfx1031 | 183.8 MH/s | 146 W   |
+| AMD Radeon RX 9070 XT           | RDNA 4       | gfx1201 | 155.8 MH/s | 301.6 W |
+| AMD Radeon RX 7600              | RDNA 3       | gfx1102 | 77.3 MH/s  | 144 W   |
 
 #### Intel
 
-| GPU Model      | Architecture | Arch | Hashrate   | Power   |
-| -------------- | ------------ | ---- | ---------- | ------- |
-| Intel Arc A750 | Xe-HPG       | DG2  | 122.8 MH/s | 187.8 W |
+| GPU Model      | Architecture       | Arch    | Hashrate   | Power   |
+| -------------- | ------------------ | ------- | ---------- | ------- |
+| Intel Arc A750 | Xe-HPG (Alchemist) | acm-g10 | 122.8 MH/s | 187.8 W |
+
+Intel Arc support is available since 1.5.8 on Linux, HiveOS and mmpOS (not on Windows). It requires the Intel GPU driver with Level Zero (`libze_loader.so.1`). Other Intel Arc models are not supported yet.
 
 ## Usage
 
