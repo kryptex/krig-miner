@@ -4,6 +4,35 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.8
+
+Faster hashrate:
+
+Pearl (PRL):
+
+- NVIDIA DGX Spark GB10 100.49 TH/s (+3.01%) @ 96 W
+
+Quantus (QTC):
+
+- NVIDIA DGX Spark GB10 460.04 MH/s (+54.67%) @ 95.73 W
+- AMD RX 6700 XT 183.843 MH/s (+1.04%) @ 146 W
+- Intel Arc A750 122.786 MH/s (+3.36%) @ 187.8 W
+
+## 1.5.7
+
+Quantus (QTC) higher hashrate:
+
+- NVIDIA RTX PRO 6000 Blackwell Server Edition: 1881.10 MH/s @ 600.00 W
+- NVIDIA GeForce RTX 5090: 1786.76 MH/s @ 574.99 W
+- NVIDIA GeForce RTX 4090: 1317.97 MH/s @ 449 W
+- NVIDIA RTX 6000 Ada Generation: 989.09 MH/s @ 299.66 W
+- NVIDIA CMP 50HX: 377.875 MH/s @ 250 W
+- NVIDIA CMP 90HX: 348.275 MH/s @ 320 W
+- NVIDIA GeForce RTX 3060: 220.148 MH/s @ 169.25 W
+- NVIDIA GeForce GTX 1660: 163.90 MH/s @ 128.92 W
+- NVIDIA GeForce GTX 1650: 96.797 MH/s
+- Intel Arc A750: 112.819 MH/s @ 187.96 W
+
 ## 1.5.6
 
 Support for new regions of [Kryptex pool](https://pool.kryptex.com/)
