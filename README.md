@@ -52,7 +52,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | GPU Model               | Architecture | Arch   | Hashrate    | Power   |
 | ----------------------- | ------------ | ------ | ----------- | ------- |
 | NVIDIA RTX PRO 6000     | Blackwell    | sm_120 | 1881.1 MH/s | 600 W   |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120 | 1766.1 MH/s | 575 W   |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120 | 1786.8 MH/s | 575 W   |
 | NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89  | 1375.1 MH/s | 449 W   |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89  | 989.1 MH/s  | 299.7 W |
 | NVIDIA L40S             | Ada Lovelace | sm_89  | 892.0 MH/s  | 348.6 W |
