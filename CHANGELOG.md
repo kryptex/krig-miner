@@ -4,6 +4,23 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.10
+
+Faster hashrate:
+
+Quantus (QTC):
+
+- NVIDIA GeForce RTX 5090 1766.12 MH/s (+2.17%) @ 575 W
+- NVIDIA GeForce RTX 4090 1375.11 MH/s (+0.68%) @ 449 W
+- NVIDIA GeForce RTX 3090 542.01 MH/s (+3.28%) @ 305 W
+- NVIDIA CMP 90HX 365.851 MH/s (+3.86%) @ 248.99 W
+
+Intel Arc for Quantus (QTC):
+
+- Windows support
+- All Intel Arc A-series GPUs: A770, A750, A580, A380, A310, mobile and Pro models
+- New `--no-intel` flag disables Intel GPUs
+
 ## 1.5.9
 
 Faster hashrate:

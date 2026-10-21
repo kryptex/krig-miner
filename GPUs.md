@@ -55,13 +55,13 @@ Not supported.
 
 | Arch              | Family                                       | Target          | Last update |
 | ----------------- | -------------------------------------------- | --------------- | ----------- |
-| Blackwell         | RTX 5000 / RTX 6000 Series                   | sm_120          | 1.5.7       |
+| Blackwell         | RTX 5000 / RTX 6000 Series                   | sm_120          | 1.5.10      |
 | Blackwell ARM     | DGX Spark / GB10                             | sm_121          | 1.5.8       |
 | Blackwell         | B200, GB200, B300, GB300                     | sm_100, sm_103  | 1.5.3       |
 | Hopper            | H100 / H200                                  | sm_90           | 1.5.0       |
 | Hopper            | GH200 / GH200 NVL2                           | sm_90           | 1.5.3       |
-| Ada Lovelace      | RTX 4000 Series / L-series                   | sm_89           | 1.5.7       |
-| Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.7       |
+| Ada Lovelace      | RTX 4000 Series / L-series                   | sm_89           | 1.5.10      |
+| Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.10      |
 | Turing            | RTX 2000 / GTX 1600 Series / Quadro RTX / T4 | sm_75           | 1.5.7       |
 | Volta             | V100 / GV100 / TITAN V                       | sm_70           | x           |
 | Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.2       |
@@ -86,16 +86,16 @@ Not supported.
 
 ### Intel
 
-| Arch               | Family          | Target  | Last update |
-| ------------------ | --------------- | ------- | ----------- |
-| Xe-HPG (Alchemist) | Arc A750        | acm-g10 | 1.5.8       |
-| Xe-HPG (Alchemist) | Arc A770 / A580 | acm-g10 | x           |
-| Xe-HPG (Alchemist) | Arc A300 Series | acm-g11 | x           |
-| Xe2 (Battlemage)   | Arc B500 Series | bmg-g21 | x           |
+| Arch               | Family                                        | Target  | Last update |
+| ------------------ | --------------------------------------------- | ------- | ----------- |
+| Xe-HPG (Alchemist) | Arc A770 / A750 / A580, A770M / A730M / A550M | acm-g10 | 1.5.10      |
+| Xe-HPG (Alchemist) | Arc A380 / A310, A370M / A350M, Pro A40 / A50 | acm-g11 | 1.5.10      |
+| Xe-HPG (Alchemist) | Arc A570M / A530M, Pro A60                    | acm-g12 | 1.5.10      |
+| Xe2 (Battlemage)   | Arc B500 Series                               | bmg-g21 | x           |
 
 ## Notes
 
-- Intel Arc is supported for Quantus only, since 1.5.8, on Linux, HiveOS and mmpOS. Windows is not supported. The Intel GPU driver with Level Zero (`libze_loader.so.1`) is required.
+- Intel Arc A-series is supported for Quantus only: the A750 on Linux, HiveOS and mmpOS since 1.5.8; all A-series GPUs and Windows since 1.5.10. The Intel GPU driver with Level Zero is required (`ze_loader.dll` on Windows, `libze_loader.so.1` on Linux). Use `--no-intel` to disable Intel GPUs.
 - Use `--list-devices` to see which GPUs the installed driver exposes to the miner.
 - AMD integrated GPUs are excluded by default. Use `--amd-igpu` to enable the supported APU architectures. 
 - Legacy AMD GCN GPUs need a runtime that still supports their architecture. Linux ROCm 6 may be required.

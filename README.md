@@ -1,7 +1,7 @@
 <img width="1298" height="680" alt="krig-readme" src="https://github.com/user-attachments/assets/54974d80-9325-476b-b812-96637857228b" />
 
 # Krig miner
-**Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs (Quantus also runs on Intel Arc A750) by [pool.kryptex.com](https://pool.kryptex.com).
+**Pearl (PRL) & Quantus (QTC)** miner for AMD & NVIDIA GPUs (Quantus also runs on Intel Arc A-series) by [pool.kryptex.com](https://pool.kryptex.com).
 
 Quick start:
 1. **Download** krig from [releases](https://github.com/kryptex/krig-miner/releases) and subscribe for updates.
@@ -52,14 +52,14 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | GPU Model               | Architecture | Arch   | Hashrate    | Power   |
 | ----------------------- | ------------ | ------ | ----------- | ------- |
 | NVIDIA RTX PRO 6000     | Blackwell    | sm_120 | 1881.1 MH/s | 600 W   |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120 | 1786.8 MH/s | 575 W   |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89  | 1318.0 MH/s | 449 W   |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120 | 1766.1 MH/s | 575 W   |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89  | 1375.1 MH/s | 449 W   |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89  | 989.1 MH/s  | 299.7 W |
 | NVIDIA L40S             | Ada Lovelace | sm_89  | 892.0 MH/s  | 348.6 W |
-| NVIDIA GeForce RTX 3090 | Ampere       | sm_86  | 490.4 MH/s  | 370 W   |
+| NVIDIA GeForce RTX 3090 | Ampere       | sm_86  | 542.0 MH/s  | 305 W   |
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121 | 460.0 MH/s  | 95.7 W  |
 | NVIDIA CMP 50HX         | Turing       | sm_75  | 377.9 MH/s  | 250 W   |
-| NVIDIA CMP 90HX         | Ampere       | sm_86  | 348.3 MH/s  | 320 W   |
+| NVIDIA CMP 90HX         | Ampere       | sm_86  | 365.9 MH/s  | 249 W   |
 | NVIDIA GeForce RTX 3060 | Ampere       | sm_86  | 220.1 MH/s  | 169.3 W |
 | NVIDIA GeForce GTX 1660 | Turing       | sm_75  | 163.9 MH/s  | 128.9 W |
 | NVIDIA GeForce GTX 1650 | Turing       | sm_75  | 96.8 MH/s   | 75 W    |
@@ -80,7 +80,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | -------------- | ------------------ | ------- | ---------- | ------- |
 | Intel Arc A750 | Xe-HPG (Alchemist) | acm-g10 | 122.8 MH/s | 187.8 W |
 
-Intel Arc support is available since 1.5.8 on Linux, HiveOS and mmpOS (not on Windows). It requires the Intel GPU driver with Level Zero (`libze_loader.so.1`). Other Intel Arc models are not supported yet.
+All Intel Arc A-series GPUs (A770, A750, A580, A380, A310, mobile and Pro models) are supported since 1.5.10 on Windows, Linux, HiveOS and mmpOS. The Intel GPU driver with Level Zero is required (`ze_loader.dll` on Windows, `libze_loader.so.1` on Linux). The hashrate above is measured on Linux; on Windows the A750 is currently about 25% slower. Use `--no-intel` to disable Intel GPUs.
 
 ## Usage
 
@@ -117,6 +117,8 @@ options:
                              run and all CUDA + ROCm devices are mined.
       --no-rocm            Disable the ROCm backend (don't load HIP DLLs or
                              enumerate AMD GPUs)
+      --no-intel           Disable the Intel Level Zero backend (don't load
+                             ze_loader or enumerate Intel Arc GPUs; Quantus only)
       --rocm-runtime <6|7> Pin the HIP runtime major; by default 6 is tried
                              first, then 7
       --gpu-cclock <MHz>   Lock NVIDIA core clock
