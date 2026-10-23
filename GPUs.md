@@ -64,7 +64,7 @@ Not supported.
 | Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.10      |
 | Turing            | RTX 2000 / GTX 1600 Series / Quadro RTX / T4 | sm_75           | 1.5.7       |
 | Volta             | V100 / GV100 / TITAN V                       | sm_70           | x           |
-| Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.11      |
+| Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.12      |
 | Maxwell and older | GTX 900 Series and older                     | sm_52 and older | x           |
 
 ### AMD

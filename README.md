@@ -63,7 +63,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA GeForce RTX 3060 | Ampere       | sm_86  | 220.1 MH/s  | 169.3 W |
 | NVIDIA GeForce GTX 1660 | Turing       | sm_75  | 163.9 MH/s  | 128.9 W |
 | NVIDIA GeForce GTX 1650 | Turing       | sm_75  | 96.8 MH/s   | 75 W    |
-| NVIDIA GeForce GTX 1080 | Pascal       | sm_61  | 72.9 MH/s   | 174.9 W |
+| NVIDIA GeForce GTX 1080 | Pascal       | sm_61  | 80.8 MH/s   | 175.9 W |
 
 #### AMD
 
