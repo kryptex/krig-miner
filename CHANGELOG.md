@@ -4,6 +4,18 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.11
+
+Faster hashrate:
+
+Quantus (QTC):
+
+- NVIDIA GPU Pascal family
+- AMD GPU RDNA 2 family
+- NVIDIA GeForce GTX 1080 72.94 MH/s (+124.9%) @ 174.89 W
+- AMD RX 6750 XT 199.60 MH/s (+6.13%) @ 196 W
+- AMD RX 6700 XT 186.326 MH/s (+1.35%) @ 149 W
+
 ## 1.5.10
 
 Faster hashrate:

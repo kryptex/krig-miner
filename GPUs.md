@@ -64,7 +64,7 @@ Not supported.
 | Ampere            | RTX 3000 Series / RTX A / A-series           | sm_80, sm_86    | 1.5.10      |
 | Turing            | RTX 2000 / GTX 1600 Series / Quadro RTX / T4 | sm_75           | 1.5.7       |
 | Volta             | V100 / GV100 / TITAN V                       | sm_70           | x           |
-| Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.2       |
+| Pascal            | GTX 1000 Series / P-series                   | sm_60, sm_61    | 1.5.11      |
 | Maxwell and older | GTX 900 Series and older                     | sm_52 and older | x           |
 
 ### AMD
@@ -75,7 +75,7 @@ Not supported.
 | RDNA 4            | RX 9000 Series                          | gfx1200, gfx1201               | 1.5.9       |
 | RDNA 3.5          | Ryzen AI APUs                           | gfx1150–gfx1152                | 1.5.2       |
 | RDNA 3            | RX 7000 Series / Ryzen APUs             | gfx1100–gfx1103                | 1.5.9       |
-| RDNA 2            | RX 6000 Series / selected Ryzen APUs    | gfx1030-gfx1035                | 1.5.8       |
+| RDNA 2            | RX 6000 Series / selected Ryzen APUs    | gfx1030-gfx1035                | 1.5.11      |
 | RDNA 2            | Van Gogh / Raphael APUs                 | gfx1033, gfx1036               | x           |
 | RDNA 1            | RX 5000 Series / Pro / RDNA 1 APUs      | gfx1010–gfx1013                | 1.5.2       |
 | GCN 5 / Vega 20   | VII / MI50–MI60                         | gfx906                         | 1.5.2       |
