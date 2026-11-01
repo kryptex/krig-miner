@@ -44,6 +44,8 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
+| NVIDIA CMP 90HX         | Ampere       | sm_86   | ~85.1 TH/s    |
+| NVIDIA GeForce RTX 3060 | Ampere       | sm_86   | ~53.3 TH/s    |
 
 ### Quantus (QTC) Hashrate
 

@@ -4,6 +4,17 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.13
+
+Faster hashrate,
+higher power efficiency (lock the memory clock to 810 Mhz):
+
+Pearl (PRL):
+
+- NVIDIA GPU Ampere family
+- NVIDIA GeForce RTX 3060 53.336 TH/s (+42.36%) @ 169.83 W
+- NVIDIA CMP 90HX 85.081 TH/s (+54.21%)
+
 ## 1.5.12
 
 Faster hashrate:
