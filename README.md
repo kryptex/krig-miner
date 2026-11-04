@@ -38,14 +38,14 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA B300             | Blackwell    | sm_103  | ~431 TH/s     |
 | NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | ~422 TH/s     |
 | NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | ~402 TH/s     |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | ~385 TH/s     |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | ~292 TH/s     |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | ~398 TH/s     |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | ~309 TH/s     |
 | NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | Supported     |
 | NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
 | NVIDIA CMP 90HX         | Ampere       | sm_86   | ~85.1 TH/s    |
-| NVIDIA GeForce RTX 3060 | Ampere       | sm_86   | ~53.3 TH/s    |
+| NVIDIA GeForce RTX 3060 | Ampere       | sm_86   | ~55.3 TH/s    |
 
 ### Quantus (QTC) Hashrate
 

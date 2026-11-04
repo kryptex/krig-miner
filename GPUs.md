@@ -15,13 +15,13 @@ https://pool.kryptex.com/device/gpu
 
 | Arch              | Family                               | Target          | Last update |
 | ----------------- | ------------------------------------ | --------------- | ----------- |
-| Blackwell         | RTX 5000 / RTX 6000 Series           | sm_120          | 1.4.0       |
+| Blackwell         | RTX 5000 / RTX 6000 Series           | sm_120          | 1.5.14      |
 | Blackwell ARM     | DGX Spark / GB10                     | sm_121          | 1.5.8       |
 | Blackwell         | B200, GB200, B300, GB300             | sm_100, sm_103  | 1.5.3       |
 | Hopper            | H100 / H200                          | sm_90           | 1.4.0       |
 | Hopper            | GH200 / GH200 NVL2                   | sm_90           | 1.5.3       |
-| Ada Lovelace      | RTX 4000 Series / RTX Ada / L-series | sm_89           | 1.4.0       |
-| Ampere            | RTX 3000 Series / RTX A / A-series   | sm_80, sm_86    | 1.5.13      |
+| Ada Lovelace      | RTX 4000 Series / RTX Ada / L-series | sm_89           | 1.5.14      |
+| Ampere            | RTX 3000 Series / RTX A / A-series   | sm_80, sm_86    | 1.5.14      |
 | Turing            | RTX 2000 Series / Quadro RTX / T4    | sm_75           | 1.4.0       |
 | Turing            | GTX 1600 Series                      | sm_75           | 1.4.0       |
 | Volta             | V100 / Quadro GV100 / TITAN V        | sm_70           | 1.4.0       |

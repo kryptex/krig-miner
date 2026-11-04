@@ -4,6 +4,22 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.5.14
+
+Higher hashrate:
+
+Pearl (PRL):
+
+- NVIDIA GPU Ampere family
+- NVIDIA GPU Ada family
+- NVIDIA GPU RTX Blackwell family
+- NVIDIA GeForce RTX 3060 53.836 TH/s (+0.94%) @ 169.8 W,
+  55.306 TH/s @ memory clock 810 MHz, 168.58 W
+- NVIDIA GeForce RTX 4090 308.340 TH/s (+3.71%) @ 338.89 W,
+  308.543 TH/s (+235.79%) @ memory clock 810 MHz, 310.33 W
+- NVIDIA GeForce RTX 5090 397.611 TH/s (+4.44%) @ 475.78 W,
+  397.689 TH/s (+429.99%) @ memory clock 810 MHz, 468.20 W
+
 ## 1.5.13
 
 Faster hashrate,
