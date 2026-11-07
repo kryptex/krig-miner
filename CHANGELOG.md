@@ -4,6 +4,11 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.6.0
+
+- Lower CPU usage on weak CPUs.
+- Lower network traffic usage for Pearl on [Kryptex Pool](https://pool.kryptex.com/prl).
+
 ## 1.5.14
 
 Higher hashrate:
