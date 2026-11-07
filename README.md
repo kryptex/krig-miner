@@ -104,6 +104,9 @@ options:
   -p, --password <pw>      Pool password
   Failover pools: add --url --user --password per pool,
                   or --url per pool and --user --password once
+      --proxy <url>        SOCKS5 or HTTP CONNECT proxy for all pools
+                             socks5://[user:password@]host[:port]
+                             http://[user:password@]host[:port]
       --api-port <port>    Enable the HTTP API on <port>
       --api-host <ip>      Bind interface for the API (optional; default 127.0.0.1)
                              e.g. --api-port 12000 --api-host 127.0.0.1
@@ -142,6 +145,22 @@ options:
   -h, --help               Print this help and exit
   -V, --version            Print version and exit
 ```
+
+### Proxy
+
+Since 1.6.0 the miner can route all pool connections through a proxy:
+
+```
+krig-miner -o stratum+ssl://<pool-host>:8048 -u <wallet> --proxy socks5://127.0.0.1:1080
+```
+
+- `--proxy` (or the `KRIG_PROXY` environment variable) accepts `socks5://[user:password@]host[:port]` and
+  `http://[user:password@]host[:port]`; default ports are 1080 for SOCKS5 and 80 for HTTP CONNECT.
+- Authentication: SOCKS5 username/password or HTTP Basic. Percent-encode special characters in credentials,
+  for example `p%40ss` for `p@ss`.
+- The proxy applies to every pool: Pearl and Quantus, failover pools and the devfee pool. Pool hostnames are
+  resolved on the proxy side. TLS still authenticates the pool inside the tunnel.
+- A failed proxy connection is retried through the proxy; the miner never falls back to a direct connection.
 
 ## Support
 
