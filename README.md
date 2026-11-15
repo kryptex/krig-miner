@@ -26,7 +26,8 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | AMD Radeon RX 9060 XT   | RDNA 4       | gfx1200 | ~45 TH/s      |
 | AMD Radeon RX 7900 XT   | RDNA 3       | gfx1100 | ~41.4 TH/s    |
 | AMD Radeon RX 7600      | RDNA 3       | gfx1102 | ~15.4 TH/s    |
-| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ~17.8 TH/s    |
+| AMD Radeon RX 6750 XT   | RDNA 2       | gfx1031 | ~18.7 TH/s    |
+| AMD Radeon RX 6700 XT   | RDNA 2       | gfx1031 | ~18.4 TH/s    |
 | AMD Radeon RX 5500      | RDNA 1       | gfx1012 | Supported     |
 | AMD Radeon VII          | GCN 5        | gfx906  | Supported     |
 | AMD Instinct MI50/MI60  | GCN 5        | gfx906  | Supported     |
@@ -44,6 +45,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
+| NVIDIA CMP 50HX         | Turing       | sm_75   | ~85.2 TH/s    |
 | NVIDIA CMP 90HX         | Ampere       | sm_86   | ~85.1 TH/s    |
 | NVIDIA GeForce RTX 3060 | Ampere       | sm_86   | ~55.3 TH/s    |
 
@@ -145,6 +147,13 @@ options:
   -h, --help               Print this help and exit
   -V, --version            Print version and exit
 ```
+
+### Memory clock locking
+
+Since 1.7.0 `--gpu-mclock` can lock the memory clock at 405 MHz on Windows for the RTX 3060, GTX 1650 and CMP 50HX,
+and at 810 MHz for the GTX 1650 (NVIDIA driver 621.14 or newer); on Linux at 405 MHz for the CMP 50HX, CMP 70HX and
+CMP 90HX (driver 610.43.03 or newer). The original settings are restored on exit. CUDA 13 drivers give the best
+Pearl performance.
 
 ### Proxy
 

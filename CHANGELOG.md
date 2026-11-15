@@ -4,6 +4,29 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.7.0
+
+Higher hashrate:
+
+Pearl (PRL):
+
+- NVIDIA GPU Turing family
+- NVIDIA CMP 50HX 81.963 TH/s at default memory clock,
+  85.153 TH/s @ memory clock 405 MHz
+- AMD Radeon RX 6700 XT 18.378 TH/s @ 186 W
+- AMD Radeon RX 6750 XT 18.668 TH/s (+8.25%) @ 200 W
+
+CUDA 13 drivers are required for best performance.
+
+Improvements and fixes:
+
+- Fixed Pearl startup on Windows GPUs without CUDA memory-pool support (`cudaMallocAsync` error 801).
+- Added 405 MHz memory-clock locking on Windows for RTX 3060, GTX 1650 and CMP 50HX,
+  and 810 MHz locking for GTX 1650. Requires NVIDIA driver 621.14.
+- Added 405 MHz memory-clock locking on Linux for CMP 50HX, CMP 70HX and CMP 90HX.
+  Requires NVIDIA driver 610.43.03.
+- Restore the original GPU settings when exiting after using the new memory-clock controls.
+
 ## 1.6.0
 
 - Lower CPU usage on weak CPUs.

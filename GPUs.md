@@ -22,7 +22,7 @@ https://pool.kryptex.com/device/gpu
 | Hopper            | GH200 / GH200 NVL2                   | sm_90           | 1.5.3       |
 | Ada Lovelace      | RTX 4000 Series / RTX Ada / L-series | sm_89           | 1.5.14      |
 | Ampere            | RTX 3000 Series / RTX A / A-series   | sm_80, sm_86    | 1.5.14      |
-| Turing            | RTX 2000 Series / Quadro RTX / T4    | sm_75           | 1.4.0       |
+| Turing            | RTX 2000 Series / Quadro RTX / T4    | sm_75           | 1.7.0       |
 | Turing            | GTX 1600 Series                      | sm_75           | 1.4.0       |
 | Volta             | V100 / Quadro GV100 / TITAN V        | sm_70           | 1.4.0       |
 | Pascal            | GTX 1000 Series / P-series           | sm_60, sm_61    | x           |
@@ -37,7 +37,7 @@ https://pool.kryptex.com/device/gpu
 | RDNA 4          | RX 9000 Series                       | gfx1200, gfx1201               | 1.4.0       |
 | RDNA 3.5        | Ryzen AI APUs                        | gfx1150–gfx1152                | 1.5.2       |
 | RDNA 3          | RX 7000 Series / Ryzen APUs          | gfx1100–gfx1103                | 1.5.2       |
-| RDNA 2          | RX 6000 Series / selected Ryzen APUs | gfx1030-gfx1035                | 1.5.2       |
+| RDNA 2          | RX 6000 Series / selected Ryzen APUs | gfx1030-gfx1035                | 1.7.0       |
 | RDNA 2          | Van Gogh / Raphael APUs              | gfx1033, gfx1036               | x           |
 | RDNA 1          | Navi 12 / Navi 14                    | gfx1011, gfx1012               | 1.4.0       |
 | RDNA 1          | Navi 10 / RDNA 1 APUs                | gfx1010, gfx1013               | x           |
