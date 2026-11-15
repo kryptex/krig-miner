@@ -15,6 +15,8 @@ Pearl (PRL):
   85.153 TH/s @ memory clock 405 MHz
 - AMD Radeon RX 6700 XT 18.378 TH/s @ 186 W
 - AMD Radeon RX 6750 XT 18.668 TH/s (+8.25%) @ 200 W
+- NVIDIA GeForce RTX 4000 series with the memory clock locked at 810 MHz:
+  RTX 4070 Laptop 63.12 TH/s @ 38 W (1.6.0: 32.82 TH/s, +92%)
 
 CUDA 13 drivers are required for best performance.
 

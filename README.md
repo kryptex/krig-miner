@@ -47,6 +47,7 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
 | NVIDIA CMP 50HX         | Turing       | sm_75   | ~85.2 TH/s    |
 | NVIDIA CMP 90HX         | Ampere       | sm_86   | ~85.1 TH/s    |
+| NVIDIA RTX 4070 Laptop  | Ada Lovelace | sm_89   | ~63.1 TH/s    |
 | NVIDIA GeForce RTX 3060 | Ampere       | sm_86   | ~55.3 TH/s    |
 
 ### Quantus (QTC) Hashrate
@@ -154,6 +155,9 @@ Since 1.7.0 `--gpu-mclock` can lock the memory clock at 405 MHz on Windows for t
 and at 810 MHz for the GTX 1650 (NVIDIA driver 621.14 or newer); on Linux at 405 MHz for the CMP 50HX, CMP 70HX and
 CMP 90HX (driver 610.43.03 or newer). The original settings are restored on exit. CUDA 13 drivers give the best
 Pearl performance.
+
+On RTX 4000 series cards an 810 MHz memory-clock lock nearly doubles the Pearl hashrate since 1.7.0:
+an RTX 4070 Laptop went from 32.82 TH/s (1.6.0) to 63.12 TH/s at the same 38 W.
 
 ### Proxy
 
