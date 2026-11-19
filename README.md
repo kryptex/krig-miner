@@ -36,15 +36,18 @@ These are just examples. Other AMD & NVIDIA GPUs are supported, too. Hashrate va
 
 | GPU Model               | Architecture | Arch    | Hashrate      |
 | ---------------------   | ------------ | ------- | ------------- |
+| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | ~444 TH/s     |
 | NVIDIA B300             | Blackwell    | sm_103  | ~431 TH/s     |
 | NVIDIA RTX PRO 6000     | Blackwell    | sm_120  | ~422 TH/s     |
 | NVIDIA GeForce RTX 6000 | Blackwell    | sm_120  | ~402 TH/s     |
-| NVIDIA GeForce RTX 5090 | Blackwell    | sm_120  | ~398 TH/s     |
-| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | ~309 TH/s     |
+| NVIDIA GeForce RTX 4090 | Ada Lovelace | sm_89   | ~329 TH/s     |
 | NVIDIA GeForce RTX 3090 | Ampere       | sm_86   | Supported     |
 | NVIDIA L40S             | Ada Lovelace | sm_89   | ~259 TH/s     |
 | NVIDIA RTX 6000 Ada     | Ada Lovelace | sm_89   | ~201 TH/s     |
+| NVIDIA RTX 4070 Ti      | Ada Lovelace | sm_89   | ~168.5 TH/s   |
+| NVIDIA RTX A6000        | Ampere       | sm_86   | ~140.8 TH/s   |
 | NVIDIA DGX Spark GB10   | Blackwell    | sm_121  | ~100 TH/s     |
+| NVIDIA RTX 5060 Ti      | Blackwell    | sm_120  | ~97.6 TH/s    |
 | NVIDIA CMP 50HX         | Turing       | sm_75   | ~85.2 TH/s    |
 | NVIDIA CMP 90HX         | Ampere       | sm_86   | ~85.1 TH/s    |
 | NVIDIA RTX 4070 Laptop  | Ada Lovelace | sm_89   | ~63.1 TH/s    |
@@ -158,6 +161,14 @@ Pearl performance.
 
 On RTX 4000 series cards an 810 MHz memory-clock lock nearly doubles the Pearl hashrate since 1.7.0:
 an RTX 4070 Laptop went from 32.82 TH/s (1.6.0) to 63.12 TH/s at the same 38 W.
+
+Since 1.8.0 the RTX 5090 and RTX 5060 Ti keep close to their full Pearl hashrate with the memory clock locked
+at 810 MHz or 405 MHz, at a lower power draw: the RTX 5090 does 439.49 TH/s @ 571 W at the default memory clock
+and 443.50 TH/s @ 561 W at 405 MHz. NVIDIA driver 580 or newer is required for best performance.
+
+1.8.1 raises the hashrate at 405 MHz on the RTX 4090 (328.7 TH/s @ 450 W), RTX 4070 Ti (168.5 TH/s @ 256 W) and
+RTX A6000 (140.8 TH/s @ 272 W), and enables the 405 MHz lock for RTX 50 series cards on Linux with drivers 570
+and newer.
 
 ### Proxy
 

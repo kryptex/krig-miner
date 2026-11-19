@@ -4,6 +4,34 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.8.1
+
+Higher hashrate:
+
+Pearl (PRL):
+
+- NVIDIA RTX 4090 328.7 TH/s (+299%) @ 450 W @ memory clock 405 MHz
+- NVIDIA RTX 4070 Ti 168.5 TH/s (+334%) @ 256 W @ memory clock 405 MHz
+- NVIDIA RTX A6000 140.8 TH/s (+300%) @ 272 W @ memory clock 405 MHz
+- NVIDIA RTX 50 at memory clock 405 MHz on drivers 570 and newer on Linux
+
+Bug fixes and improvements.
+
+## 1.8.0
+
+Higher hashrate:
+
+Pearl (PRL):
+
+- NVIDIA RTX 5090 439.49 TH/s (+3.96%) @ 571 W at default memory clock,
+  443.57 TH/s (+5.54%) @ 565 W @ memory clock 810 MHz,
+  443.50 TH/s (+210%) @ 561 W @ memory clock 405 MHz
+- NVIDIA RTX 5060 Ti 97.57 TH/s @ 147 W at default memory clock,
+  96.24 TH/s @ 140 W @ memory clock 810 MHz,
+  95.05 TH/s (+210%) @ 133 W @ memory clock 405 MHz
+
+NVIDIA driver 580 or newer is required for best performance.
+
 ## 1.7.0
 
 Higher hashrate:
