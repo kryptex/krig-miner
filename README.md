@@ -170,6 +170,9 @@ and 443.50 TH/s @ 561 W at 405 MHz. NVIDIA driver 580 or newer is required for b
 RTX A6000 (140.8 TH/s @ 272 W), and enables the 405 MHz lock for RTX 50 series cards on Linux with drivers 570
 and newer.
 
+1.8.2 brings the 405 MHz lock for RTX 50 series cards to Windows: the RTX 5060 Ti does 96.7 TH/s @ 138 W
+at 405 MHz.
+
 ### Proxy
 
 Since 1.6.0 the miner can route all pool connections through a proxy:

@@ -4,6 +4,17 @@ Download the latest release there:
 
 https://github.com/kryptex/krig-miner/releases/latest
 
+## 1.8.2
+
+Higher hashrate:
+
+Pearl (PRL):
+
+- NVIDIA RTX 5060 Ti 96.7 TH/s (+209%) @ 138 W @ memory clock 405 MHz on Windows
+- NVIDIA RTX 50 at memory clock 405 MHz on Windows
+
+Bug fixes and improvements.
+
 ## 1.8.1
 
 Higher hashrate:

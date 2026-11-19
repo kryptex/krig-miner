@@ -15,7 +15,7 @@ https://pool.kryptex.com/device/gpu
 
 | Arch              | Family                               | Target          | Last update |
 | ----------------- | ------------------------------------ | --------------- | ----------- |
-| Blackwell         | RTX 5000 / RTX 6000 Series           | sm_120          | 1.8.1       |
+| Blackwell         | RTX 5000 / RTX 6000 Series           | sm_120          | 1.8.2       |
 | Blackwell ARM     | DGX Spark / GB10                     | sm_121          | 1.5.8       |
 | Blackwell         | B200, GB200, B300, GB300             | sm_100, sm_103  | 1.5.3       |
 | Hopper            | H100 / H200                          | sm_90           | 1.4.0       |
